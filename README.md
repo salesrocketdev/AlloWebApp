@@ -1,33 +1,24 @@
-# Allo Web App (allowebapp)
+# Allo Web App
 
-Allo Web App Challenge
+Projeto técnico desenvolvido por Caio Sales com o intuito de ser uma avaliação técnica de desenvolvimento Front-end como candidato no processo seletivo do Grupo Allo.
 
-## Install the dependencies
+## Instalando dependências
 ```bash
 yarn
-# or
+# ou
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+## Preparando o ambiente
+
+Para que a aplicação funcione corretamente, é necessário clonar e rodar localmente a REST API desenvolvido para a aplicação.
+
+Acesse [Allo Web Api](https://github.com/salesrocketdev/AlloWebApi).
+
+### Inicializar a aplicação em modo de desenvolvimento
 ```bash
 quasar dev
 ```
 
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+### Customização das configurações
+Veja [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
